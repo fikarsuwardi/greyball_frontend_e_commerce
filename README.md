@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-commerce Product Listing
+
+This is a Next.js-based e-commerce product listing application featuring server-side rendering, state management with Redux, and styling with Tailwind CSS.
+
+## Features
+
+- **Next.js**: Utilizes the latest version with the App Router for efficient page routing and server-side rendering.
+- **TypeScript**: Ensures type safety and code reliability throughout the application.
+- **Tailwind CSS**: Provides a responsive and modern user interface, with easy customization.
+- **Redux**: Manages the global state, including a shopping cart that tracks the total number of items and the total price.
+- **Product Listing**: Displays products in a grid layout, fetching data server-side from a JSON API endpoint.
+- **Search and Sort**: Implements real-time search filtering by product title and sorting by price or rating.
+- **Pagination**: Supports pagination or infinite scrolling to load more products.
+- **SEO Metadata**: Dynamically generates SEO metadata for better search engine optimization.
+
+## Known Issues
+
+- **Jest Testing**: Tests are implemented, but there were initial setup challenges with Jest and TypeScript. Please ensure all necessary modules are installed before running tests.
+- **Browser Compatibility**: The application has been tested on modern browsers. However, further testing on older browsers may be needed.
+- **Performance**: While the app performs well for a small number of products, performance testing with larger datasets is recommended.
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd ecommerce-product-listing
